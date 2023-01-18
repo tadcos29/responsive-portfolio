@@ -6,8 +6,8 @@ This is an exercise I did as part of my study of CSS techniques at the coding bo
 
 ## Results:
 
-The refactored site is currently live on [GitHub Pages](https://tadcos29.github.io/horiseon-accessibility-refactor/) ([Screenshot available.](./assets/images/live-site-screenshot.png))
-![image](files/Users/jzhang/Desktop/Isolated.png)
+The refactored site is currently live on [GitHub Pages](https://tadcos29.github.io/horiseon-accessibility-refactor/) ([Screenshot available.]())
+![image](./Assets/images/site-screenshot.png)
 
 The GitHub repository for the project is: https://github.com/tadcos29/responsive-portfolio
 
