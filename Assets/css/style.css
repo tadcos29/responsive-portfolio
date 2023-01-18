@@ -1,0 +1,214 @@
+
+:root {
+    --main-bg-color:rgb(51, 56, 56);
+    --main-font-color:rgb(161, 168, 168);
+}
+
+* {
+    font-family: sans-serif;
+    background-color:var(--main-bg-color);
+    box-sizing:border-box;
+    min-height: 0;
+    min-width: 0;
+    font-size:100%;
+    }
+a {
+    color: var(--main-font-color);
+    font-style:normal;
+}
+a:hover { color:azure;}
+
+    body{
+        font-size: 2vw;
+        color:var(--main-font-color);
+    }
+    
+    
+    
+    header, footer {
+        
+        padding-top:1%;
+        padding-bottom:2%;
+    }
+    header{
+        vertical-align: middle;
+    }
+    .big-name {
+        display:inline-block;
+        padding:1%;
+        margin:1%;
+        font-size: 200%;
+        
+    
+    }
+    .big-nav-header {
+        display:inline-block;
+        list-style:none;
+        padding:1%;
+        font-size: 100%;
+        float:right;
+        margin-right:5%;
+    }
+    .big-nav-header li {
+        display:inline;
+        font-size: 100%;
+     
+        border-width: 1px;
+        border-right-style: solid;
+        padding-right:10px;
+        padding-left:10px;
+        border-color: red;
+    }
+    .deco-banner {
+        display:block;
+        width:100%;
+        padding: 50px;
+        background-color: #000000;
+    }
+    .about-s {
+        display: inline-flex;
+        margin:2%;
+        padding:20px;
+   
+        width:90%;
+        text-align: left;
+   
+    
+       
+    }
+    .about-ll {
+        
+    
+        font-size:120%;
+        float:left;
+        min-width:216px;
+        width:15%;
+        min-height:90%;
+        margin-right: 4%;
+        padding-right: 1%;
+        text-align: right;
+        border-right: 2px solid red;
+    }
+    .about-rt {
+
+        font-size: 100%;
+        text-align: left;
+        float:left;
+        height:90%;
+        width:80%;
+        min-width:30%;
+        margin-right: 10px;
+       
+
+    }
+    .work-box {
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        width:80%;
+
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+    }
+    
+    .visimg {
+        object-fit:cover;width: 100%;
+        margin:2% 0 2% 0 ;
+    }
+ 
+    .top-card {
+        min-width:100%;
+        flex:1 1;
+
+    }
+   
+    .work-card {
+        flex: 1 1 33%;
+        width: 30%;
+        padding:1%;
+      
+        flex-direction: column;
+        flex:wrap;
+        align-items: stretch;
+    }
+    .work-card:hover {
+        transform:rotate(5deg);
+    }
+    
+    footer {
+        background-color:rgb(0, 0, 0);
+        padding-bottom:1%;
+        padding-top:2%;
+        float: bottom;
+        bottom: 0px;
+    
+    }
+    .cardlabel{
+        font-size:70%;
+        overflow-x:auto;
+        margin:1%;
+        min-height:0;
+        flex: 1 0;
+        align-items: stretch;
+    }
+    /* Cards are split into two columns at 992px or smaller */
+    @media screen and (max-width: 992px) {
+
+        .about-s {flex-direction: column;
+            
+        
+        }
+
+        .work-box {
+            flex-direction: row;
+            width: 80%;
+            align-self: center;
+            
+        }
+        .about-ll {float:none;
+             min-height: fit-content; width:auto; text-align: left;
+             border-bottom:solid;
+             border-right:none;
+             border-left:solid;
+             border-width:1px;
+             border-color:red;
+             padding:2px;
+        }
+        .about-rt{
+            float:none; min-height: fit-content;
+        }
+        .top-card{
+            /* min-height:150%; */
+        }
+        .work-card {
+            flex: 1 1 50%;
+        }
+     
+      }
+      
+      @media screen and (max-width: 768px) {
+        body{font-size: 120%;}
+        .big-nav-header li {font-size: 80%;} */
+
+        .about-s {flex-direction: column;}
+
+        .work-box {
+            flex-direction: column;
+            align-content: center;
+            width: 90%;
+             
+    
+             
+        
+        }
+
+        .work-card {
+          width: 60%;
+          align-self: center;
+        }
+        .top-card {
+            width:100%;
+        }
+       
+        
+      }
