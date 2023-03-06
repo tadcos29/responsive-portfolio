@@ -6,7 +6,7 @@ This is an exercise I did as part of my study of CSS techniques at the coding bo
 
 ## Results:
 
-The refactored site is currently live on [GitHub Pages](https://tadcos29.github.io/responsive-portfolio/) 
+The portfolio website is currently live on [GitHub Pages](https://tadcos29.github.io/responsive-portfolio/) 
 
 
 ![image](./Assets/images/site-screenshot.png)
